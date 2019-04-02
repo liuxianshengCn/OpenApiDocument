@@ -5,6 +5,20 @@
 ```
 api_key={api_key}&order_id={order_id}&symbol={symbol}&time={time}&sign={sign}
 ```
+- 入参说明
+
+  | 字段名称 | 数据类型 | 说明 |
+  | --- | --- | --- |
+  | api_key | 接口钥匙 | * |
+  | sign | 签名数据 | * |
+  | symbol | 币对 | * |
+  | time | 当前时间戳 | * |
+  | order_id | 订单Id | * |
+
+- 命令
+```
+curl -X GET https://{host}/open/api/order_info?symbol=mkreth&api_key=1764ddfe62ab365092296ad8272df4f9&sign=eba1eb0b4d499a2a030dcd22697a7a16&time=1554183546&order_id=1
+```
 - 返回信息
 
     | 字段名 | 数据类型 | 说明 |
@@ -21,11 +35,6 @@ api_key={api_key}&order_id={order_id}&symbol={symbol}&time={time}&sign={sign}
     | created_at | 创建时间 | &nbsp; |
     | total_price | 总额 | &nbsp; |
     | remain_volume | 剩余数量 | &nbsp; |
-
-- 命令
-```
-curl -X GET http://{host}/open/api/order_info?symbol=mkreth&api_key=1764ddfe62ab365092296ad8272df4f9&sign=eba1eb0b4d499a2a030dcd22697a7a16&time=1554183546&order_id=1
-```
 
 - 示例
 ```
