@@ -28,5 +28,9 @@ curl -X POST http://localhost:8080/exchange-open-api/open/api/cancel_order_all?a
     
 - 示例
 ```
-{"code":"0","msg":"suc","data":null}
+{
+	"code": "0",
+	"msg": "suc",
+	"data": null
+}
 ```
