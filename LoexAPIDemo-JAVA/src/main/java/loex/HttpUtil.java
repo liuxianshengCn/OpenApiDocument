@@ -19,8 +19,6 @@ import java.util.Map;
 
 /**
  * httputil
- *
- * @author lvchaohua
  */
 public class HttpUtil {
 
