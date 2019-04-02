@@ -18,7 +18,7 @@ api_key={api_key}&time={time}&sign={sign}&symbol={symbol}
 
 - 命令
 ```
-curl -X GET http://{host}/open/api/new_order?api_key=1764ddfe62ab365092296ad8272df4f9\&sign=266a90452a352a1c674df2e0b18cc9e9\&time=1554184381\&symbol=mkreth\&pageSize=10\&page=1
+curl -X GET https://{host}/open/api/new_order?api_key=1764ddfe62ab365092296ad8272df4f9\&sign=266a90452a352a1c674df2e0b18cc9e9\&time=1554184381\&symbol=mkreth\&pageSize=10\&page=1
 ```
 
 - 返回信息
