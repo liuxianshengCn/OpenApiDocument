@@ -1,7 +1,7 @@
 # 查询开放币对信息
 - 请求方式: GET
-- url: https://{host}/open/api/common/symbols
-- 传入参数   无
+- url: `https://{host}/open/api/common/symbols`
+- 传入参数   `无`
 - 返回信息
 
     | 字段名 | 数据类型 | 说明 |
