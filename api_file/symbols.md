@@ -14,7 +14,7 @@
 
 - 命令
 ```
-curl -X GET http://{host}/exchange-open-api/open/api/common/symbols
+curl -X GET http://{host}/open/api/common/symbols
 ```
 
 - 示例
