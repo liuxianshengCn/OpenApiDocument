@@ -15,7 +15,7 @@ api_key={api_key}&time={time}&sign={sign}&symbol={symbol}
 
 - 命令
 ```
-curl -X GET http://{host}/open/api/notices/list?page=1\&pageSize=1\&lang=zh
+curl -X GET https://{host}/open/api/notices/list?page=1\&pageSize=1\&lang=zh
 
 - 返回信息
 
