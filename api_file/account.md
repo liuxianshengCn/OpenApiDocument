@@ -16,7 +16,7 @@
     
 - 命令
 ```
-curl -X GET http://{host}/open/api/user/account?sign=a7c476df2de02811166cda6edb20869a\&api_key=1764ddfe62ab365092296ad8272df4f9\&time=1554178351
+curl -X GET http://{host}/open/api/user/account?sign=a7c476df2de02811166cda6edb20869a&api_key=1764ddfe62ab365092296ad8272df4f9&time=1554178351
 ```
     
 - 示例
