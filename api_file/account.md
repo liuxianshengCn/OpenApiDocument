@@ -1,4 +1,4 @@
-#查询个人资产信息
+# 查询个人资产信息
 - 请求方式: GET
 - url: https://{host}/open/api/user/account
 - 传入参数 `api_key={api_key}&time={time}&sign={sign}`
