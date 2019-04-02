@@ -13,7 +13,7 @@ symbol={symbol}
 
 - 命令
 ```
-curl -X GET http://{host}/open/api/get_trades?symbol=mkreth
+curl -X GET https://{host}/open/api/get_trades?symbol=mkreth
 ```
 
 - 返回信息

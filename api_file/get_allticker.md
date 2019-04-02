@@ -8,7 +8,7 @@
 
 - 命令
 ```
-curl -X GET http://{host}/open/api/get_allticker
+curl -X GET https://{host}/open/api/get_allticker
 ```
 
 - 返回信息

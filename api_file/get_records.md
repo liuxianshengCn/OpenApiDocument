@@ -14,7 +14,7 @@ symbol={symbol}&period={period}
 
 - 命令
 ```
-curl -X GET http://{host}/open/api/get_records?symbol=mkreth\&period=1
+curl -X GET https://{host}/open/api/get_records?symbol=mkreth\&period=1
 ```
 
 - 返回信息

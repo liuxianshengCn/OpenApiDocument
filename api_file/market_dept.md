@@ -14,7 +14,7 @@ symbol={symbol}&type={type}
 
 - 命令
 ```
-curl -X GET http://{host}/open/api/market_dept?symbol=mkreth\&type=step0
+curl -X GET https://{host}/open/api/market_dept?symbol=mkreth\&type=step0
 ```
 
 - 返回信息

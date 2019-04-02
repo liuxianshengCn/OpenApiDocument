@@ -16,7 +16,7 @@ api_key={api_key}&time={time}&sign={sign}&symbol={symbol}
 
 - 命令
 ```
-curl -X POST http://localhost:8080/exchange-open-api/open/api/cancel_order_all?api_key=1764ddfe62ab365092296ad8272df4f9\&sign=e432bf3286e8af7f65a7957f8b659dc3\&time=1554185838\&symbol=mkreth
+curl -X POST https://localhost:8080/exchange-open-api/open/api/cancel_order_all?api_key=1764ddfe62ab365092296ad8272df4f9\&sign=e432bf3286e8af7f65a7957f8b659dc3\&time=1554185838\&symbol=mkreth
 ```
 
 - 返回信息

@@ -17,7 +17,7 @@ api_key={api_key}&time={time}&sign={sign}&symbol={symbol}&order_id={order_id}
 
 - 命令
 ```
-curl -X POST http://{host}/open/api/cancel_order?api_key=1764ddfe62ab365092296ad8272df4f9\&sign=d60d07da62d733023fa89887615fd181\&time=1554186248\&symbol=mkreth\&order_id=1
+curl -X POST https://{host}/open/api/cancel_order?api_key=1764ddfe62ab365092296ad8272df4f9\&sign=d60d07da62d733023fa89887615fd181\&time=1554186248\&symbol=mkreth\&order_id=1
 ```
 
 - 返回信息
