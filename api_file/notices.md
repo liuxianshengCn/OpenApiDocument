@@ -16,7 +16,7 @@ api_key={api_key}&time={time}&sign={sign}&symbol={symbol}
 - 命令
 ```
 curl -X GET https://{host}/open/api/notices/list?page=1\&pageSize=1\&lang=zh
-
+```
 - 返回信息
 
     | 字段名 | 数据类型 | 说明 |
@@ -25,7 +25,6 @@ curl -X GET https://{host}/open/api/notices/list?page=1\&pageSize=1\&lang=zh
     | msg | 内容 | suc=成功，否则返回具体信息 |
     
 - 示例
-```
 {
 	"code": "0",
 	"msg": "suc",
