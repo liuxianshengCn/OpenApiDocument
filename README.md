@@ -1,6 +1,6 @@
 #雷盾交易所公共接口文档
-官网地址https://www.loex.io
-调用接口域名 openapi.loex.io
+* 官网地址https://www.loex.io
+* 调用接口域名 openapi.loex.io
 
 ###接口列表
 * /open/api/market_dept     查询买卖盘深度
