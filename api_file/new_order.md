@@ -3,7 +3,7 @@
 - url: https://{host}/open/api/new_order
 - 传入参数 
 ```
-`api_key={api_key}&time={time}&sign={sign}&symbol={symbol}`
+api_key={api_key}&time={time}&sign={sign}&symbol={symbol}
 ```
 - 入参说明
 
