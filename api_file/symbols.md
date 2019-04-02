@@ -11,7 +11,12 @@
     | symbol | 币对 | 由basecoin + countcoin组成 |
     | count_coin | 数量币种 | 卖方币种 |
     | base_coin | 价格币种 | 买方币种 |
-    
+
+- Test
+```
+	curl -X GET http://{host}/exchange-open-api/open/api/common/symbols
+```
+
 - 示例
 ```
 {
