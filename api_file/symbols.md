@@ -12,7 +12,7 @@
     | count_coin | 数量币种 | 卖方币种 |
     | base_coin | 价格币种 | 买方币种 |
 
-- Test
+- 命令
 ```
 curl -X GET http://{host}/exchange-open-api/open/api/common/symbols
 ```
